@@ -11,10 +11,12 @@ st.subheader("1. Customer Churn Prediction")
 st.write("Predicts which customers are likely to leave.")
 
 st.header("Skills")
-st.write("- Python
+st.write(\"\"\"
+- Python
 - SQL
 - Machine Learning
-- Power BI")
+- Power BI
+\"\"\")
 
 st.header("Contact Me")
 st.write("Email: santosh@example.com | GitHub: github.com/santosh")
