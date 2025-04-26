@@ -21,4 +21,4 @@ st.write("""
 """)
 
 st.header("Contact Me")
-st.write("Email: sarojsantosh5@gmail.com | phone: +91 889-855-2361 | GitHub: github.com/santosh")
+st.write("Email: sarojsantosh5@gmail.com | phone: +91 889-855-2361 | GitHub: github.com/iamssaroj")
