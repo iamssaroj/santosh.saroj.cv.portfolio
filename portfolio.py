@@ -1,9 +1,8 @@
 
 import streamlit as st
 
-st.title("👨‍💻 Santosh Hariram Saroj - Portfolio")
+st.title("SANTOSH HARIRAM SAROJ")
 
-# Add your photo here
 st.image("image.jpg", caption="Santosh Hariram Saroj", width=150)
 
 st.header("About Me")
@@ -13,6 +12,13 @@ Experienced in teaching mathematics with strong analytical and problem-solving s
 st.header("Projects")
 st.subheader("1. Customer Churn Prediction")
 st.write("Predicts which customers are likely to leave.")
+
+st.header("Certifications")
+st.write("""
+- Business Analysis Fundamentals By Microsoft
+- Financial Accounting and Analysis by SWAYAM(IIMB)
+- Python for Data Science by IITM(NPTEL)
+""")
 
 st.header("Skills")
 st.write("""
