@@ -4,8 +4,6 @@ import streamlit as st
 st.title("👨‍💻 Santosh Hariram Saroj - Portfolio")
 
 st.header("About Me")
-# Display photo
-st.image("santosh_photo.jpg", caption="Santosh Hariram Saroj", width=200)  # Adjust path and width as needed
 st.write(""" Aspiring data analyst with a background in finance and mathematics. Currently pursuing a Master’s in Management Studies (Finance) and certified in business analysis and financial accounting. 
 Experienced in teaching mathematics with strong analytical and problem-solving skills. Looking to apply data skills to support business insights and decision-making.""")
 
