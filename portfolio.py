@@ -66,4 +66,5 @@ st.write("""
 📧 Email: sarojsantosh5@gmail.com  
 📱 Phone: +91 889-855-2361  
 💻 GitHub: [github.com/iamssaroj](https://github.com/iamssaroj)
+🌍 LinkedIn: [linkedin.com/iamssaroj](https://www.linkedin.com/in/iamssaroj/)
 """)
