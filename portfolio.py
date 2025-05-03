@@ -1,53 +1,34 @@
 import streamlit as st
 
-# Set custom background color for the whole page
-st.markdown("""
-    <style>
-    body {
-        background-color: #f0f8ff;  /* Light blue background */
-    }
-    </style>
-""", unsafe_allow_html=True)
-
-# Title and Image Section
-st.markdown("""
-    <div style="background-color: #b0e0e6; padding: 20px;">
-        <h1 style="text-align:center; color: #2f4f4f;">SANTOSH HARIRAM SAROJ</h1>
-    </div>
-""", unsafe_allow_html=True)
-
+# Title and Image - About Me Section
 col1, col2 = st.columns([1, 3])
 with col1:
     st.image("image.jpg", caption="Santosh Hariram Saroj", width=150)
 with col2:
+    st.title("SANTOSH HARIRAM SAROJ")
     st.write("""
     Aspiring data analyst with a background in finance and mathematics. 
     Currently pursuing a Master’s in Management Studies (Finance) and certified 
     in business analysis and financial accounting.
+
+    Experienced in teaching mathematics with strong analytical and problem-solving skills. 
+    Looking to apply data skills to support business insights and decision-making.
     """)
 
-# Projects Section with Background Color
-st.markdown("""
-    <div style="background-color: #ffebcd; padding: 20px;">
-        <h2 style="color: #2f4f4f;">📂 Projects</h2>
-    </div>
-""", unsafe_allow_html=True)
-
+# Projects Section with Card Style
+st.header("📂 Projects")
 col1, col2 = st.columns(2)
+
 with col1:
     st.subheader("1️⃣ Customer Churn Prediction")
     st.write("🔍 Predicts which customers are likely to leave using logistic regression and decision trees.")
+    
 with col2:
     st.subheader("2️⃣ Stock Price Prediction")
     st.write("📈 Predicts stock prices using historical data and time series forecasting.")
 
-# Certifications Section with Color
-st.markdown("""
-    <div style="background-color: #f0f8ff; padding: 20px;">
-        <h2 style="color: #2f4f4f;">📜 Certifications</h2>
-    </div>
-""", unsafe_allow_html=True)
-
+# Certifications Section in Columns
+st.header("📜 Certifications")
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -65,13 +46,8 @@ with col3:
     with open("python_certificate.pdf", "rb") as f:
         st.download_button("📄 Download Certificate", f, file_name="Python_Certificate.pdf")
 
-# Skills Section with Color
-st.markdown("""
-    <div style="background-color: #ffebcd; padding: 20px;">
-        <h2 style="color: #2f4f4f;">🛠️ Skills</h2>
-    </div>
-""", unsafe_allow_html=True)
-
+# Skills Section in Bullet Grid
+st.header("🛠️ Skills")
 col1, col2 = st.columns(2)
 
 with col1:
@@ -84,13 +60,8 @@ with col2:
     st.write("- 📈 Power BI")
     st.write("- 🌐 Streamlit")
 
-# Contact Section with Emojis and Color
-st.markdown("""
-    <div style="background-color: #b0e0e6; padding: 20px;">
-        <h2 style="color: #2f4f4f;">📬 Contact Me</h2>
-    </div>
-""", unsafe_allow_html=True)
-
+# Contact Section with Emojis
+st.header("📬 Contact Me")
 st.write("""
 📧 Email: sarojsantosh5@gmail.com  
 📱 Phone: +91 889-855-2361  
