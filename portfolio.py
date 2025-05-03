@@ -1,51 +1,69 @@
-
 import streamlit as st
 
-st.title("SANTOSH HARIRAM SAROJ")
+# Title and Image - About Me Section
+col1, col2 = st.columns([1, 3])
+with col1:
+    st.image("image.jpg", caption="Santosh Hariram Saroj", width=150)
+with col2:
+    st.title("SANTOSH HARIRAM SAROJ")
+    st.write("""
+    Aspiring data analyst with a background in finance and mathematics. 
+    Currently pursuing a Master’s in Management Studies (Finance) and certified 
+    in business analysis and financial accounting.
 
-st.image("image.jpg", caption="Santosh Hariram Saroj", width=150)
+    Experienced in teaching mathematics with strong analytical and problem-solving skills. 
+    Looking to apply data skills to support business insights and decision-making.
+    """)
 
-st.header("About Me")
-st.write(""" Aspiring data analyst with a background in finance and mathematics. Currently pursuing a Master’s in Management Studies (Finance) and certified in business analysis and financial accounting. 
-Experienced in teaching mathematics with strong analytical and problem-solving skills. Looking to apply data skills to support business insights and decision-making.""")
+# Projects Section with Card Style
+st.header("📂 Projects")
+col1, col2 = st.columns(2)
 
-st.header("Projects")
-st.subheader("1. Customer Churn Prediction")
-st.write("Predicts which customers are likely to leave.")
+with col1:
+    st.subheader("1️⃣ Customer Churn Prediction")
+    st.write("🔍 Predicts which customers are likely to leave using logistic regression and decision trees.")
+    
+with col2:
+    st.subheader("2️⃣ Stock Price Prediction")
+    st.write("📈 Predicts stock prices using historical data and time series forecasting.")
 
+# Certifications Section in Columns
+st.header("📜 Certifications")
+col1, col2, col3 = st.columns(3)
 
-st.header("Certifications")
+with col1:
+    st.write("✔️ Business Analysis Fundamentals by Microsoft")
+    with open("ba_certificate.pdf", "rb") as f:
+        st.download_button("📄 Download Certificate", f, file_name="Business_Analysis_Certificate.pdf")
 
-st.write("📌 Business Analysis Fundamentals By Microsoft")
-try:
-    with open("ba_certificate.pdf", "rb") as file:
-        st.download_button(label="📄 Download Certificate", data=file, file_name="Business_Analysis_Certificate.pdf", mime="application/pdf")
-except FileNotFoundError:
-    st.error("❌ Certificate file 'ba_certificate.pdf' not found!")
+with col2:
+    st.write("✔️ Financial Accounting by SWAYAM (IIMB)")
+    with open("accounting_certificate.pdf", "rb") as f:
+        st.download_button("📄 Download Certificate", f, file_name="Accounting_Certificate.pdf")
 
-st.write("📌 Financial Accounting and Analysis by SWAYAM (IIMB)")
-try:
-    with open("accounting_certificate.pdf", "rb") as file:
-        st.download_button(label="📄 Download Certificate", data=file, file_name="Accounting_Certificate.pdf", mime="application/pdf")
-except FileNotFoundError:
-    st.error("❌ Certificate file 'accounting_certificate.pdf' not found!")
+with col3:
+    st.write("✔️ Python for Data Science by IITM (NPTEL)")
+    with open("python_certificate.pdf", "rb") as f:
+        st.download_button("📄 Download Certificate", f, file_name="Python_Certificate.pdf")
 
-st.write("📌 Python for Data Science by IITM (NPTEL)")
-try:
-    with open("python_certificate.pdf", "rb") as file:
-        st.download_button(label="📄 Download Certificate", data=file, file_name="Python_Certificate.pdf", mime="application/pdf")
-except FileNotFoundError:
-    st.error("❌ Certificate file 'python_certificate.pdf' not found!")
+# Skills Section in Bullet Grid
+st.header("🛠️ Skills")
+col1, col2 = st.columns(2)
 
+with col1:
+    st.write("- ✅ Python")
+    st.write("- 📊 SQL")
+    st.write("- 🧮 Statistics")
 
-st.header("Skills")
+with col2:
+    st.write("- 🤖 Machine Learning")
+    st.write("- 📈 Power BI")
+    st.write("- 🌐 Streamlit")
+
+# Contact Section with Emojis
+st.header("📬 Contact Me")
 st.write("""
-- ✅ Python
-- 📊 SQL
-- 🤖 Machine Learning
-- 📈 Power BI
-- 🌐 Streamlit
+📧 Email: sarojsantosh5@gmail.com  
+📱 Phone: +91 889-855-2361  
+💻 GitHub: [github.com/iamssaroj](https://github.com/iamssaroj)
 """)
-
-st.header("Contact Me")
-st.write("Email: sarojsantosh5@gmail.com | phone: +91 889-855-2361 | GitHub: github.com/iamssaroj")
