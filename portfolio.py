@@ -115,18 +115,3 @@ Feel free to connect with me through any of the platforms below:
 💼 **LinkedIn**: [linkedin.com/in/iamssaroj](https://www.linkedin.com/in/iamssaroj/)  
 💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
 """)
-
-# Optional: Contact Form
-st.subheader("📬 Send Me a Message")
-
-contact_form = """
-<form action="https://formsubmit.co/sarojsantosh5@gmail.com" method="POST">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px;"><br><br>
-    <input type="email" name="email" placeholder="Your email" required style="width: 100%; padding: 10px;"><br><br>
-    <textarea name="message" placeholder="Your message" rows="5" required style="width: 100%; padding: 10px;"></textarea><br><br>
-    <button type="submit" style="background-color:#0e76a8; color:white; padding:10px 20px; border:none; border-radius:6px;">Send</button>
-</form>
-"""
-
-st.markdown(contact_form, unsafe_allow_html=True)
