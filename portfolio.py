@@ -3,22 +3,6 @@ import streamlit as st
 # Custom CSS for styling
 st.markdown("""
     <style>
-        /* Background color of the main content */
-        .main {
-            background-color: #f4f4f4;
-        }
-
-        /* Style for headings */
-        h1, h2, h3 {
-            color: #0e76a8;
-        }
-
-        /* General text color and size */
-        .css-10trblm, .css-1v3fvcr {
-            font-size: 16px;
-            color: #333333;
-        }
-
         /* Button styling */
         .stButton>button {
             background-color: #0e76a8;
@@ -26,22 +10,41 @@ st.markdown("""
             border-radius: 8px;
             padding: 10px 16px;
             border: none;
+            transition: all 0.3s ease;  /* Smooth transition effect */
         }
 
-        /* Remove scrollbars */
-        ::-webkit-scrollbar {
-            display: none;
+        /* Hover effect */
+        .stButton>button:hover {
+            background-color: #0c5f7a; /* Darker shade on hover */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
         }
 
-        /* Make download buttons visually consistent */
-        .stDownloadButton>button {
-            background-color: #0e76a8;
-            color: white;
-            border-radius: 8px;
+        /* Footer Styling */
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            color: gray;
+            font-size: 14px;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: #0e76a8;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer p {
+            margin: 5px 0;
         }
     </style>
 """, unsafe_allow_html=True)
 
+# Content of the page (your existing Streamlit content)
 # Title and Image - About Me Section
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -118,11 +121,11 @@ Feel free to connect with me through any of the platforms below:
 💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
 """)
 
-# Footer
+# Footer Section with Links and Styling
 st.markdown("""
-    <hr style="margin-top: 50px;">
-
-    <div style="text-align: center; padding: 10px; color: gray; font-size: 14px;">
-        © 2025 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit
+    <div class="footer">
+        <p>Follow me on <a href="https://www.linkedin.com/in/iamssaroj/" target="_blank">LinkedIn</a> | <a href="https://github.com/iamssaroj" target="_blank">GitHub</a></p>
+        <hr>
+        <p>© 2025 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit</p>
     </div>
 """, unsafe_allow_html=True)
