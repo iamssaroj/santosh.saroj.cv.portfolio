@@ -45,7 +45,7 @@ st.markdown("""
 # Title and Image - About Me Section
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("image.jpg", caption="Santosh Hariram Saroj", width=150)
+    st.image("image.jpg", caption="Santosh Anjali Hariram Saroj", width=150)
 with col2:
     st.title("SANTOSH HARIRAM SAROJ")
     st.write("""
@@ -115,3 +115,12 @@ Feel free to connect with me through any of the platforms below:
 💼 **LinkedIn**: [linkedin.com/in/iamssaroj](https://www.linkedin.com/in/iamssaroj/)  
 💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
 """)
+
+# Footer
+st.markdown("""
+    <hr style="margin-top: 50px;">
+
+    <div style="text-align: center; padding: 10px; color: gray; font-size: 14px;">
+        © 2025 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit
+    </div>
+""", unsafe_allow_html=True)
