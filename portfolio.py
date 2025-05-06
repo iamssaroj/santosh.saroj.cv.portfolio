@@ -1,5 +1,47 @@
 import streamlit as st
 
+# Custom CSS for styling
+st.markdown("""
+    <style>
+        /* Background color of the main content */
+        .main {
+            background-color: #f4f4f4;
+        }
+
+        /* Style for headings */
+        h1, h2, h3 {
+            color: #0e76a8;
+        }
+
+        /* General text color and size */
+        .css-10trblm, .css-1v3fvcr {
+            font-size: 16px;
+            color: #333333;
+        }
+
+        /* Button styling */
+        .stButton>button {
+            background-color: #0e76a8;
+            color: white;
+            border-radius: 8px;
+            padding: 10px 16px;
+            border: none;
+        }
+
+        /* Remove scrollbars */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Make download buttons visually consistent */
+        .stDownloadButton>button {
+            background-color: #0e76a8;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Title and Image - About Me Section
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -15,52 +57,54 @@ with col2:
     Looking to apply data skills to support business insights and decision-making.
     """)
 
-# Projects Section with Card Style
+# Projects Section with Tabs
 st.header("📂 Projects")
-tab1, tab2 = st.tabs(["Customer Churn", "Stock Price Prediction"])
+tab1, tab2 = st.tabs(["Customer Churn Prediction", "Stock Price Prediction"])
 
 with tab1:
-    st.subheader("Customer Churn Prediction")
-    st.write("🔍 Uses logistic regression and decision trees to predict customer churn.")
+    st.subheader("1️⃣ Customer Churn Prediction")
+    st.write("🔍 Predicts which customers are likely to leave using logistic regression and decision trees.")
 
 with tab2:
-    st.subheader("Stock Price Prediction")
-    st.write("📈 Predicts stock trends using historical data and time series forecasting.")
+    st.subheader("2️⃣ Stock Price Prediction")
+    st.write("📈 Predicts stock prices using historical data and time series forecasting.")
 
-# Certifications Section in Columns
+# Certifications Section with Expanders
 st.header("📜 Certifications")
-col1, col2, col3 = st.columns(3)
 
-with col1:
-    st.write("✔️ Business Analysis Fundamentals by Microsoft")
+with st.expander("✔️ Business Analysis Fundamentals - Microsoft"):
     with open("ba_certificate.pdf", "rb") as f:
         st.download_button("📄 Download Certificate", f, file_name="Business_Analysis_Certificate.pdf")
 
-with col2:
-    st.write("✔️ Financial Accounting by SWAYAM (IIMB)")
+with st.expander("✔️ Financial Accounting - SWAYAM (IIMB)"):
     with open("accounting_certificate.pdf", "rb") as f:
         st.download_button("📄 Download Certificate", f, file_name="Accounting_Certificate.pdf")
 
-with col3:
-    st.write("✔️ Python for Data Science by IITM (NPTEL)")
+with st.expander("✔️ Python for Data Science - IITM (NPTEL)"):
     with open("python_certificate.pdf", "rb") as f:
         st.download_button("📄 Download Certificate", f, file_name="Python_Certificate.pdf")
 
-# Skills Section in Bullet Grid
+# Skills Section with Progress Bars
 st.header("🛠️ Skills")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.write("- ✅ Python")
-    st.write("- 📊 SQL")
-    st.write("- 🧮 Statistics")
+    st.write("✅ Python")
+    st.progress(90)
+    st.write("📊 SQL")
+    st.progress(80)
+    st.write("🧮 Statistics")
+    st.progress(75)
 
 with col2:
-    st.write("- 🤖 Machine Learning")
-    st.write("- 📈 Power BI")
-    st.write("- 🌐 Streamlit")
+    st.write("🤖 Machine Learning")
+    st.progress(70)
+    st.write("📈 Power BI")
+    st.progress(65)
+    st.write("🌐 Streamlit")
+    st.progress(85)
 
-# Contact Section with Emojis
+# Contact Section
 st.header("📞 Contact Me")
 
 st.markdown("""
@@ -72,4 +116,17 @@ Feel free to connect with me through any of the platforms below:
 💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
 """)
 
+# Optional: Contact Form
+st.subheader("📬 Send Me a Message")
 
+contact_form = """
+<form action="https://formsubmit.co/sarojsantosh5@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Your name" required style="width: 100%; padding: 10px;"><br><br>
+    <input type="email" name="email" placeholder="Your email" required style="width: 100%; padding: 10px;"><br><br>
+    <textarea name="message" placeholder="Your message" rows="5" required style="width: 100%; padding: 10px;"></textarea><br><br>
+    <button type="submit" style="background-color:#0e76a8; color:white; padding:10px 20px; border:none; border-radius:6px;">Send</button>
+</form>
+"""
+
+st.markdown(contact_form, unsafe_allow_html=True)
