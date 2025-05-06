@@ -61,10 +61,10 @@ with col2:
     st.write("- 🌐 Streamlit")
 
 # Contact Section with Emojis
-st.header("📬 Contact Me")
-st.write("""
-📧 Email: sarojsantosh5@gmail.com  
-📱 Phone: +91 889-855-2361  
-💻 GitHub: [github.com/iamssaroj](https://github.com/iamssaroj)
-🌍 LinkedIn: [linkedin.com/iamssaroj](https://www.linkedin.com/in/iamssaroj/)
+st.markdown("""
+**📧 Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
+**📱 Phone**: +91 889-855-2361  
+**💻 GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
+**🌍 LinkedIn**: [linkedin.com/in/iamssaroj](https://www.linkedin.com/in/iamssaroj/)
 """)
+
