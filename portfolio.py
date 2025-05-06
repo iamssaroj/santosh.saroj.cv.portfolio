@@ -90,19 +90,19 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("✅ Python")
-    st.progress(90)
+    st.progress(30)
     st.write("📊 SQL")
-    st.progress(80)
+    st.progress(20)
     st.write("🧮 Statistics")
     st.progress(75)
 
 with col2:
     st.write("🤖 Machine Learning")
-    st.progress(70)
+    st.progress(10)
     st.write("📈 Power BI")
-    st.progress(65)
+    st.progress(5)
     st.write("🌐 Streamlit")
-    st.progress(85)
+    st.progress(5)
 
 # Contact Section
 st.header("📞 Contact Me")
