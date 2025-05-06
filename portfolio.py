@@ -1,32 +1,31 @@
 import streamlit as st
 
-# Custom CSS for styling
+# Custom CSS for button hover and footer
 st.markdown("""
     <style>
-        /* Button styling */
-        .stButton>button {
+        /* Button styling with hover */
+        div[data-testid="stButton"] > button {
             background-color: #0e76a8;
             color: white;
             border-radius: 8px;
             padding: 10px 16px;
             border: none;
-            transition: all 0.3s ease;  /* Smooth transition effect */
+            transition: all 0.3s ease;
         }
 
-        /* Hover effect */
-        .stButton>button:hover {
-            background-color: #0c5f7a; /* Darker shade on hover */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        div[data-testid="stButton"] > button:hover {
+            background-color: #0c5f7a;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
         }
 
         /* Footer Styling */
         .footer {
             text-align: center;
             padding: 20px 0;
-            background-color: #f4f4f4;
-            color: gray;
-            font-size: 14px;
             margin-top: 50px;
+            font-size: 14px;
+            color: gray;
         }
 
         .footer a {
@@ -37,14 +36,9 @@ st.markdown("""
         .footer a:hover {
             text-decoration: underline;
         }
-
-        .footer p {
-            margin: 5px 0;
-        }
     </style>
 """, unsafe_allow_html=True)
 
-# Content of the page (your existing Streamlit content)
 # Title and Image - About Me Section
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -121,10 +115,11 @@ Feel free to connect with me through any of the platforms below:
 💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
 """)
 
-# Footer Section with Links and Styling
+# Footer Section
 st.markdown("""
     <div class="footer">
-        <p>Follow me on <a href="https://www.linkedin.com/in/iamssaroj/" target="_blank">LinkedIn</a> | <a href="https://github.com/iamssaroj" target="_blank">GitHub</a></p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/iamssaroj/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/iamssaroj" target="_blank">GitHub</a></p>
         <hr>
         <p>© 2025 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit</p>
     </div>
