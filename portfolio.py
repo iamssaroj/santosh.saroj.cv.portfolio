@@ -80,15 +80,40 @@ with st.container():
 # Projects Section
 with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.header("📂 Projects")
-    tabs = st.tabs(["🔍 Crime Rate Predictor"])  # Single tab in a list
-    tab1 = tabs[0]
+    st.header("📂 Project")
 
-    with tab1:
-        st.subheader("1️⃣ 🔍 Crime Rate Predictor")
-        st.write("🔍 Predicts which customers are likely to leave using logistic regression and decision trees.")
+    st.subheader("🔍 Crime Rate Predictor")
+
+    st.write("""
+    This project develops a **Logistic Regression** model to classify Indian states into different crime rate categories.
+    It uses socio-economic indicators like:
+    - Population Density
+    - Per Capita Income
+    - Literacy Rate
+    - Unemployment Rate
+    - Drug Addiction Rate
+
+    The goal is to predict the crime risk level to help policymakers allocate resources effectively and improve safety measures.
+    """)
+
+    st.markdown("**Key Features:**")
+    st.markdown("""
+    - Data preprocessing and exploratory data analysis (EDA)  
+    - Feature selection based on correlation and importance  
+    - Logistic regression model building and evaluation  
+    - Visualization of prediction results on Indian state maps  
+    - Interactive user interface for inputting state-level data  
+    """)
+
+    st.markdown("**Technologies Used:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit")
+
+    # GitHub and Demo links
+    st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/crime-rate-predictor)")
+    # If you have a demo link, add here:
+    # st.markdown("[▶️ Live Demo](https://your-demo-link)")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
 # Certifications Section
 with st.container():
