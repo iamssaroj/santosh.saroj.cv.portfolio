@@ -81,7 +81,8 @@ with st.container():
 with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.header("📂 Projects")
-    tab1, tab2 = st.tabs(["🔍 Crime Rate Predictor"])
+    tabs = st.tabs(["🔍 Crime Rate Predictor"])  # Single tab in a list
+    tab1 = tabs[0]
 
     with tab1:
         st.subheader("1️⃣ 🔍 Crime Rate Predictor")
