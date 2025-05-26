@@ -81,15 +81,12 @@ with st.container():
 with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.header("📂 Projects")
-    tab1, tab2 = st.tabs(["Customer Churn Prediction", "Stock Price Prediction"])
+    tab1, tab2 = st.tabs(["🔍 Crime Rate Predictor"])
 
     with tab1:
-        st.subheader("1️⃣ Customer Churn Prediction")
+        st.subheader("1️⃣ 🔍 Crime Rate Predictor")
         st.write("🔍 Predicts which customers are likely to leave using logistic regression and decision trees.")
 
-    with tab2:
-        st.subheader("2️⃣ Stock Price Prediction")
-        st.write("📈 Predicts stock prices using historical data and time series forecasting.")
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
