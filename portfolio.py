@@ -169,6 +169,15 @@ with st.container():
     💼 **LinkedIn**: [linkedin.com/in/iamssaroj](https://www.linkedin.com/in/iamssaroj/)  
     💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
     """)
+
+    with open("resume.pdf", "rb") as resume_file:
+        st.download_button(
+            label="📄 Download Resume",
+            data=resume_file,
+            file_name="Santosh_Saroj_Resume.pdf",
+            mime="application/pdf"
+        )
+    
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
