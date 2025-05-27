@@ -6,9 +6,11 @@ st.set_page_config(page_title="Santosh Saroj | Portfolio", layout="wide")
 # Custom CSS Styling
 st.markdown("""
     <style>
-        /* Set light background */
+        /* Set background color and subtle texture */
         .stApp {
-            background-color: #f0f8ff;
+            background-color: #F0F2F6;
+            background-image: url("https://www.transparenttextures.com/patterns/white-wall.png");
+            background-size: cover;
         }
 
         /* Style headings */
