@@ -110,8 +110,8 @@ with st.container():
     # GitHub and Demo links
     st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/crime-rate-predictor)")
     # If you have a demo link, add here:
-    st.markdown("[▶️ Live Demo](https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/)")
-
+    st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
+ 
     st.markdown("</div>", unsafe_allow_html=True)
 
 
