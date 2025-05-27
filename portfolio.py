@@ -115,12 +115,11 @@ with st.container():
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Court Cases Clustering Project Section
-st.markdown("<div class='card'>", unsafe_allow_html=True)
 with st.container():
+    st.write("""<div class='card' style='padding:20px; border-radius:12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); background:#fff;'>""", unsafe_allow_html=True)
+    
     st.header("📂 Project")
-
     st.subheader("📑 Court Cases Clustering")
-
     st.write("""
     This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to cluster similar court case PDFs automatically.
     
@@ -136,11 +135,11 @@ with st.container():
 
     st.markdown("**Technologies Used:** Python, PyMuPDF, SpaCy, Scikit-learn, Sentence Transformers, Streamlit")
 
-    # GitHub and Demo links (replace with your URLs)
     st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/court-cases-clustering)")
     st.markdown("[▶️ Live Demo](https://court-cases-clustering-demo.streamlit.app/)")
     
-st.markdown("</div>", unsafe_allow_html=True)
+    st.write("</div>", unsafe_allow_html=True)
+
 
 # Certifications Section
 with st.container():
@@ -192,9 +191,7 @@ with st.container():
     Feel free to connect with me through any of the platforms below:
 
     📧 **Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
-    📱 **Phone**: +91 889-855-2361   
-    
-     """)
+    📱 **Phone**: +91 889-855-2361 """)
 
     with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
         st.download_button(
