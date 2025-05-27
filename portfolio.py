@@ -170,7 +170,7 @@ with st.container():
     💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
     """)
 
-    with open("resume.pdf", "rb") as resume_file:
+    with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
         st.download_button(
             label="📄 Download Resume",
             data=resume_file,
