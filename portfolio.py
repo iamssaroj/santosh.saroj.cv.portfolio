@@ -85,7 +85,7 @@ with st.container():
     st.subheader("🔍 Crime Rate Predictor")
 
     st.write("""
-    This project develops a **Logistic Regression** model to classify Indian states into different crime rate categories.
+    This project develops a **Logistic Regression** model to predict future crime rate based on different states data.
     It uses socio-economic indicators like:
     - Population Density
     - Per Capita Income
@@ -98,11 +98,11 @@ with st.container():
 
     st.markdown("**Key Features:**")
     st.markdown("""
-    - Data preprocessing and exploratory data analysis (EDA)  
+    - Data sourced from official government databases (PIB, RBI, MoSPI)  
     - Feature selection based on correlation and importance  
     - Logistic regression model building and evaluation  
-    - Visualization of prediction results on Indian state maps  
-    - Interactive user interface for inputting state-level data  
+    - Visualization of prediction results  
+    - Interactive user interface for inputting data  
     """)
 
     st.markdown("**Technologies Used:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit")
