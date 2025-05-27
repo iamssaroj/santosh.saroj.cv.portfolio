@@ -113,7 +113,33 @@ with st.container():
     st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
  
     st.markdown("</div>", unsafe_allow_html=True)
+# New Court Cases Clustering Project Section
+with st.container():
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    st.header("📂 Project")
 
+    st.subheader("📑 Court Cases Clustering")
+
+    st.write("""
+    This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to cluster similar court case PDFs automatically.
+    
+    Key functionalities include:
+    - Upload multiple court case PDF documents
+    - Extract and preprocess text from PDFs
+    - Generate embeddings for documents using NLP models
+    - Apply clustering algorithms (like K-Means or DBSCAN) to group similar cases
+    - Visualize clusters and allow exploration through an interactive web app
+    
+    This tool helps legal professionals quickly identify related cases and research precedents efficiently.
+    """)
+
+    st.markdown("**Technologies Used:** Python, PyMuPDF, SpaCy, Scikit-learn, Sentence Transformers, Streamlit")
+
+    # GitHub and Demo links (replace with your URLs)
+    st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/court-cases-clustering)")
+    st.markdown("[▶️ Live Demo](https://court-cases-clustering-demo.streamlit.app/)")
+    
+    st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
 with st.container():
@@ -165,9 +191,7 @@ with st.container():
     Feel free to connect with me through any of the platforms below:
 
     📧 **Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
-    📱 **Phone**: +91 889-855-2361  
-    💼 **LinkedIn**: [linkedin.com/in/iamssaroj](https://www.linkedin.com/in/iamssaroj/)  
-    💻 **GitHub**: [github.com/iamssaroj](https://github.com/iamssaroj)  
+    📱 **Phone**: +91 889-855-2361   
     """)
 
     with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
