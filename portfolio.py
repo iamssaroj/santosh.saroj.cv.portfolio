@@ -113,9 +113,10 @@ with st.container():
     st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
  
     st.markdown("</div>", unsafe_allow_html=True)
-# New Court Cases Clustering Project Section
+
+# Court Cases Clustering Project Section
+st.markdown("<div class='card'>", unsafe_allow_html=True)
 with st.container():
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.header("📂 Project")
 
     st.subheader("📑 Court Cases Clustering")
@@ -139,7 +140,7 @@ with st.container():
     st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/court-cases-clustering)")
     st.markdown("[▶️ Live Demo](https://court-cases-clustering-demo.streamlit.app/)")
     
-    st.markdown("</div>", unsafe_allow_html=True)
+st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
 with st.container():
@@ -192,7 +193,8 @@ with st.container():
 
     📧 **Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
     📱 **Phone**: +91 889-855-2361   
-    """)
+    
+     """)
 
     with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
         st.download_button(
