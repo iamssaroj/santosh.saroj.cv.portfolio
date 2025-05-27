@@ -174,7 +174,6 @@ with st.container():
             file_name="Santosh_Saroj_Resume.pdf",
             mime="application/pdf"
         )
-    
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
