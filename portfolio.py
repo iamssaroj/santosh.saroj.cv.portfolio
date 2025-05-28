@@ -87,35 +87,42 @@ st.markdown("""
             padding: 20px;
             border-radius: 15px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
         .project-title {
-            font-size: 22px;
-            font-weight: 600;
+            font-size: 20px;
+            font-weight: bold;
             color: #333333;
+            margin-bottom: 10px;
         }
         .project-tech {
             font-size: 14px;
             color: #555;
-            margin-bottom: 10px;
+            margin-top: 10px;
         }
         .project-links a {
-            margin-right: 15px;
+            display: inline-block;
+            margin-right: 12px;
+            margin-top: 8px;
             text-decoration: none;
+            font-weight: 500;
             color: #0366d6;
         }
     </style>
 """, unsafe_allow_html=True)
 
-# --- Header
+# --- Section Header
 st.header("📂 Projects")
 
+# --- Create two side-by-side columns
+col1, col2 = st.columns(2)
+
 # --- Project 1: Crime Rate Predictor
-with st.container():
+with col1:
     st.markdown("""
     <div class='project-card'>
         <div class='project-title'>🔍 Crime Rate Predictor</div>
-        <p>This project develops a <strong>Logistic Regression</strong> model to predict crime risk levels in Indian states based on socio-economic indicators such as:</p>
+        <p>This project develops a <strong>Logistic Regression</strong> model to predict crime risk levels in Indian states using socio-economic indicators like:</p>
         <ul>
             <li>Population Density</li>
             <li>Per Capita Income</li>
@@ -125,12 +132,11 @@ with st.container():
         </ul>
         <p><strong>Key Features:</strong></p>
         <ul>
-            <li>Official data sources (PIB, RBI, MoSPI)</li>
-            <li>Feature selection via correlation analysis</li>
-            <li>Visualization and evaluation of results</li>
-            <li>Interactive user input panel</li>
+            <li>Uses official government data sources</li>
+            <li>Interactive interface for input and results</li>
+            <li>Correlation-based feature selection</li>
         </ul>
-        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit</p>
+        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Streamlit</p>
         <div class='project-links'>
             <a href='https://github.com/iamssaroj/crime-rate-predictor' target='_blank'>📂 GitHub</a>
             <a href='https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/' target='_blank'>▶️ Live Demo</a>
@@ -139,25 +145,24 @@ with st.container():
     """, unsafe_allow_html=True)
 
 # --- Project 2: Fire Risk Detection
-with st.container():
+with col2:
     st.markdown("""
     <div class='project-card'>
-        <div class='project-title'>🔥 Fire Risk Detection in Mumbai Suburbs</div>
-        <p>This project uses a <strong>Logistic Regression</strong> model to predict potential fire incidents in Mumbai suburbs based on multiple factors like:</p>
+        <div class='project-title'>🔥 Fire Risk Detection</div>
+        <p>This project uses <strong>Logistic Regression</strong> to predict fire risks in Mumbai suburbs using features such as:</p>
         <ul>
-            <li>Historical fire data</li>
+            <li>Historical fire incident data</li>
             <li>Weather conditions</li>
             <li>Population density</li>
             <li>Proximity to industrial zones</li>
         </ul>
         <p><strong>Key Features:</strong></p>
         <ul>
-            <li>Geospatial and public data integration</li>
-            <li>Binary classification of risk zones</li>
-            <li>Interactive map visualizations</li>
-            <li>Streamlit dashboard with real-time prediction</li>
+            <li>Geospatial data integration and risk zones</li>
+            <li>Dashboard for real-time insights</li>
+            <li>Interactive maps for visualization</li>
         </ul>
-        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Plotly, Folium, Streamlit</p>
+        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Folium, Streamlit</p>
         <div class='project-links'>
             <a href='https://github.com/iamssaroj/fire-risk-detector' target='_blank'>📂 GitHub</a>
             <a href='https://fire-risk-mumbai.streamlit.app/' target='_blank'>▶️ Live Demo</a>
