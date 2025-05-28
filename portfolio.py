@@ -76,13 +76,13 @@ with st.container():
         )
         st.markdown("""
         <div style='line-height: 1.7; font-size: 16px;'>
-            📚 <b>Education:</b> Master's in Management Studies (Finance)<br>
-            📜 <b>Certifications:</b> Business Analysis, Financial Accounting<br><br>
-            👩‍🏫 <b>Teaching:</b> Taught mathematics to grades 8–10, building communication and analytical skills.<br><br>
-            💡 <b>Goal:</b> Leverage data analytics to drive insights and support strategic decisions.<br><br>
-            🌱 <i>Curious mind, lifelong learner, and lover of data stories.</i>
+            👩‍🎓 <b>Currently pursuing:</b> Master’s in Management Studies (Finance)<br>
+            📜 <b>Certified in:</b> Business Analysis, Financial Accounting<br><br>
+            👩‍🏫 <b>Experience:</b> Taught mathematics to secondary school students, enhancing communication and problem-solving skills.<br><br>
+            🔍 <b>Goal:</b> Combine analytical mindset and data tools to support business insights and decision-making.
         </div>
         """, unsafe_allow_html=True)
+
 
 # Projects Section
 st.markdown("""
