@@ -113,6 +113,33 @@ with st.container():
     st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/crime-rate-predictor)")
     # If you have a demo link, add here:
     st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
+
+    st.subheader("🔥 Fire Risk Detection in Mumbai Suburbs")
+
+    st.write("""
+    This project uses a **Logistic Regression** model to predict potential fire incidents in Mumbai suburbs.
+    It incorporates various factors like:
+    - Historical fire incident data
+    - Weather conditions
+    - Population density
+    - Proximity to industrial zones
+
+    The model aims to assist emergency services and urban planners in proactive risk management and response.
+    """)
+
+    st.markdown("**Key Features:**")
+    st.markdown("""
+    - Integration of public datasets and geospatial data  
+    - Logistic Regression for binary classification of fire risk  
+    - Interactive map showing high-risk zones  
+    - Dashboard for real-time risk assessment  
+    """)
+
+    st.markdown("**Technologies Used:** Python, Pandas, Scikit-learn, Plotly, Streamlit, Folium")
+
+    # GitHub and Demo links
+    st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/fire-risk-detector)")
+    st.link_button("▶️ Live Demo", "https://fire-risk-mumbai.streamlit.app/")
  
     st.markdown("</div>", unsafe_allow_html=True)
 
