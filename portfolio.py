@@ -118,6 +118,7 @@ with st.container():
 
 with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
+    st.header("📂 Project")
 
     st.subheader("🔥 Fire Risk Detection in Mumbai Suburbs")
 
