@@ -76,10 +76,11 @@ with st.container():
         )
         st.markdown("""
         <div style='line-height: 1.7; font-size: 16px;'>
-            👩‍🎓 <b>Currently pursuing:</b> Master’s in Management Studies (Finance)<br>
-            📜 <b>Certified in:</b> Business Analysis, Financial Accounting<br><br>
-            👩‍🏫 <b>Experience:</b> Taught mathematics to secondary school students, enhancing communication and problem-solving skills.<br><br>
-            🔍 <b>Goal:</b> Combine analytical mindset and data tools to support business insights and decision-making.
+            📚 <b style='color:#f39c12;'>Education:</b> Master's in Management Studies (<b style='color:#3498db;'>Finance</b>)<br>
+            📜 <b style='color:#2ecc71;'>Certifications:</b> Business Analysis, Financial Accounting<br><br>
+            👩‍🏫 <b style='color:#9b59b6;'>Teaching:</b> Provided personalized coaching in Social Science & Mathematics to 8th–10th graders.<br><br>
+            💡 <b style='color:#e67e22;'>Goal:</b> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
+            🌱 <i style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</i>
         </div>
         """, unsafe_allow_html=True)
 
