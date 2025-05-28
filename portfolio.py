@@ -203,6 +203,7 @@ with st.container():
         - Designed and deployed interactive web apps using Streamlit.
         - Maintained clean, readable code and documentation for public use.
         """)
+        
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
