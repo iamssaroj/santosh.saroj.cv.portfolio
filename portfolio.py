@@ -64,25 +64,34 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # About Me Section
+import streamlit as st
+
 with st.container():
     col1, col2 = st.columns([1, 3])
     with col1:
         st.image("image.jpg", caption="Santosh", width=150)
+
     with col2:
         st.markdown(
-            "<h1 style='margin-bottom: 0;'>SANTOSH ANJALI HARIRAM SAROJ</h1>"
-            "<h5 style='color: gray; margin-top: 0;'>Aspiring Data Analyst | Finance & Mathematics Background</h5>",
+            """
+            <h2 style='margin-bottom:5px;'>SANTOSH ANJALI HARIRAM SAROJ</h2>
+            <p style='color:gray; font-size:16px; margin-top:0;'>Aspiring Data Analyst | Finance & Mathematics Background</p>
+            """,
             unsafe_allow_html=True
         )
-        st.markdown("""
-        <div style='line-height: 1.7; font-size: 16px;'>
-            📚 <b style='color:#f39c12;'>Education:</b> Master's in Management Studies (<b style='color:#3498db;'>Finance</b>)<br>
-            📜 <b style='color:#2ecc71;'>Certifications:</b> Business Analysis, Financial Accounting<br><br>
-            👩‍🏫 <b style='color:#9b59b6;'>Teaching:</b> Provided personalized coaching in Social Science & Mathematics to 8th–10th graders.<br><br>
-            💡 <b style='color:#e67e22;'>Goal:</b> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
-            🌱 <i style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</i>
-        </div>
-        """, unsafe_allow_html=True)
+
+        st.markdown(
+            """
+            <div style='line-height: 1.7; font-size: 16px;'>
+                📚 <strong style='color:#f39c12;'>Education:</strong> Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
+                📜 <strong style='color:#2ecc71;'>Certifications:</strong> Business Analysis, Financial Accounting<br><br>
+                👩‍🏫 <strong style='color:#9b59b6;'>Teaching:</strong> Provided personalized coaching in Social Science & Mathematics to 8th–10th graders.<br><br>
+                💡 <strong style='color:#e67e22;'>Goal:</strong> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
+                🌱 <em style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</em>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 
 # Projects Section
