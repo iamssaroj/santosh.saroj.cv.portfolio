@@ -133,7 +133,7 @@ with st.expander("🔍 Crime Rate Predictor"):
 # --- Project 2
 with st.expander("📊 FIRInsight"):
     st.markdown("""
-    <div class='project-title'>FIRInsight</div>
+    <div class='project-title'>FIRInsight (inprogress)</div>
     This project uses knowledge of NLP techniques to automatically group FIRs based on similarity in the type of crime:
 
     - Gather a dataset of FIRs in text or PDF format  
@@ -157,9 +157,9 @@ with st.expander("📊 FIRInsight"):
     """, unsafe_allow_html=True)
 
 # --- Example Project 3 (Future)
-with st.expander("Smart Emergency Medical Assistance System (SEMAS)"):
+with st.expander("🏥 Smart Emergency Medical Assistance System (SEMAS)"):
     st.markdown("""
-    <div class='project-title'>Smart Emergency Medical Assistance System (SEMAS)</div>
+    <div class='project-title'>Smart Emergency Medical Assistance System (SEMAS-inprogress)</div>
     ✅ Project Objective:
     To develop an AI-based system that can provide real-time, personalized hospital/clinic recommendations during a medical emergency by analyzing the patient’s known medical history and symptoms, and matching them with nearby healthcare facilities with the required specialization and resources.
 
