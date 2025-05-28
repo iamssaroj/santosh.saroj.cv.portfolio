@@ -110,7 +110,7 @@ st.header("📂 Projects")
 with st.expander("🔍 Crime Rate Predictor"):
     st.markdown("""
     <div class='project-title'>Crime Rate Predictor</div>
-    This project develops a **Logistic Regression** model to predict crime risk levels in Indian states based on:
+    This project develops a Logistic Regression model to predict crime risk levels in Indian states based on:
     - Population Density
     - Per Capita Income
     - Literacy Rate
@@ -131,19 +131,21 @@ with st.expander("🔍 Crime Rate Predictor"):
     """, unsafe_allow_html=True)
 
 # --- Project 2
-with st.expander("🔥 Fire Risk Detection in Mumbai"):
+with st.expander("📊 FIRInsight"):
     st.markdown("""
-    <div class='project-title'>Fire Risk Detection</div>
-    This project uses a **Logistic Regression** model to predict fire risks based on:
-    - Historical fire incidents
-    - Weather patterns
-    - Population density
-    - Industrial proximity
+    <div class='project-title'>FIRInsight</div>
+    This project uses a Knowledge of NLP techniques to automatically group FIRs based on similarity in type of crime:
+    - Gather a dataset of FIRs in text or PDF format.
+    - Data diversity: FIRs from multiple regions, languages, and crime types.
+    - FIRs through their police department websites
+    - RTI application to a police department to obtain anonymized FIR data for educational/research purposes
 
     **Key Features:**
-    - Geospatial data & mapping
-    - Real-time dashboard
-    - Binary classification of risk zones
+    - Text-Based FIR Clustering
+    - Natural Language Processing (NLP) Pipeline
+    - Unsupervised Machine Learning Model
+    - Cluster Interpretation
+    - Cluster Visualization
 
     <div class='project-tech'><strong>Technologies:</strong> Python, Scikit-learn, Folium, Streamlit</div>
 
