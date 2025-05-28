@@ -178,6 +178,32 @@ with st.expander("🏥 Smart Emergency Medical Assistance System (SEMAS)"):
     </div>
     """, unsafe_allow_html=True)
 
+# Experience Section
+with st.container():
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
+    st.header("💼 Experience")
+
+    with st.expander("📚 Mathematics Educator | Private Coaching (2015 – Present)"):
+        st.write("""
+        - Provided coaching in mathematics to students from 8th to 12th grade.
+        - Customized lesson plans to match individual learning styles and academic goals.
+        - Developed strong communication and analytical skills while simplifying complex concepts.
+        """)
+
+    with st.expander("📊 Intern | Data Analytics (Jan 2025 – Mar 2025)"):
+        st.write("""
+        - Conducted exploratory data analysis and created visual dashboards.
+        - Assisted in building a predictive model using Python and scikit-learn.
+        - Gained experience working with real datasets and presenting insights to mentors.
+        """)
+
+    with st.expander("💻 Freelancer | Data Projects on GitHub"):
+        st.write("""
+        - Created data-driven projects such as a Crime Rate Predictor and FIRInsight app.
+        - Designed and deployed interactive web apps using Streamlit.
+        - Maintained clean, readable code and documentation for public use.
+        """)
+    st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
 with st.container():
