@@ -157,9 +157,9 @@ with st.expander("📊 FIRInsight"):
     """, unsafe_allow_html=True)
 
 # --- Example Project 3 (Future)
-with st.expander("🎬 Movie Recommendation System"):
+with st.expander("Smart Emergency Medical Assistance System (SEMAS)"):
     st.markdown("""
-    <div class='project-title'>Movie Recommendation System</div>
+    <div class='project-title'>Smart Emergency Medical Assistance System (SEMAS)</div>
     A **content-based recommender system** that suggests movies based on genre, keywords, and user preferences.
 
     **Key Features:**
