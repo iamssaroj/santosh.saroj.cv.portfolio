@@ -183,14 +183,14 @@ with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
     st.header("💼 Experience")
 
-    with st.expander("📚 Mathematics Educator | Private Coaching (2015 – Present)"):
+    with st.expander("📚 Social Science & Mathematics Educator | Part time (2022 – Present)"):
         st.write("""
-        - Provided coaching in mathematics to students from 8th to 12th grade.
+        - Provided coaching in Social Science & mathematics to students from 8th to 10th grade.
         - Customized lesson plans to match individual learning styles and academic goals.
         - Developed strong communication and analytical skills while simplifying complex concepts.
         """)
 
-    with st.expander("📊 Intern | Data Analytics (Jan 2025 – Mar 2025)"):
+    with st.expander("📊 AI Intern | Microsoft(CSR) (Apr 2025 – May 2025)"):
         st.write("""
         - Conducted exploratory data analysis and created visual dashboards.
         - Assisted in building a predictive model using Python and scikit-learn.
