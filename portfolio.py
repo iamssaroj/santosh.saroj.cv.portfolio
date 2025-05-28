@@ -64,8 +64,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # About Me Section
-import streamlit as st
-
 with st.container():
     col1, col2 = st.columns([1, 3])
     with col1:
