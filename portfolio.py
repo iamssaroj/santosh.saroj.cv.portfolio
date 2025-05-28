@@ -82,18 +82,11 @@ with st.container():
 # Projects Section
 st.markdown("""
     <style>
-        .project-card {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-            margin-bottom: 20px;
-        }
         .project-title {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
-            color: #333333;
-            margin-bottom: 10px;
+            color: #333;
+            margin-bottom: 5px;
         }
         .project-tech {
             font-size: 14px;
@@ -102,8 +95,8 @@ st.markdown("""
         }
         .project-links a {
             display: inline-block;
-            margin-right: 12px;
-            margin-top: 8px;
+            margin-right: 15px;
+            margin-top: 10px;
             text-decoration: none;
             font-weight: 500;
             color: #0366d6;
@@ -111,62 +104,71 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Section Header
 st.header("📂 Projects")
 
-# --- Create two side-by-side columns
-col1, col2 = st.columns(2)
-
-# --- Project 1: Crime Rate Predictor
-with col1:
+# --- Project 1
+with st.expander("🔍 Crime Rate Predictor"):
     st.markdown("""
-    <div class='project-card'>
-        <div class='project-title'>🔍 Crime Rate Predictor</div>
-        <p>This project develops a <strong>Logistic Regression</strong> model to predict crime risk levels in Indian states using socio-economic indicators like:</p>
-        <ul>
-            <li>Population Density</li>
-            <li>Per Capita Income</li>
-            <li>Literacy Rate</li>
-            <li>Unemployment Rate</li>
-            <li>Drug Addiction Rate</li>
-        </ul>
-        <p><strong>Key Features:</strong></p>
-        <ul>
-            <li>Uses official government data sources</li>
-            <li>Interactive interface for input and results</li>
-            <li>Correlation-based feature selection</li>
-        </ul>
-        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Streamlit</p>
-        <div class='project-links'>
-            <a href='https://github.com/iamssaroj/crime-rate-predictor' target='_blank'>📂 GitHub</a>
-            <a href='https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/' target='_blank'>▶️ Live Demo</a>
-        </div>
+    <div class='project-title'>Crime Rate Predictor</div>
+    This project develops a **Logistic Regression** model to predict crime risk levels in Indian states based on:
+    - Population Density
+    - Per Capita Income
+    - Literacy Rate
+    - Unemployment Rate
+    - Drug Addiction Rate
+
+    **Key Features:**
+    - Government data (PIB, MoSPI)
+    - Feature selection and model evaluation
+    - Visual analytics + interactive inputs
+
+    <div class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Streamlit</div>
+
+    <div class='project-links'>
+        <a href='https://github.com/iamssaroj/crime-rate-predictor' target='_blank'>📂 GitHub</a>
+        <a href='https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/' target='_blank'>▶️ Live Demo</a>
     </div>
     """, unsafe_allow_html=True)
 
-# --- Project 2: Fire Risk Detection
-with col2:
+# --- Project 2
+with st.expander("🔥 Fire Risk Detection in Mumbai"):
     st.markdown("""
-    <div class='project-card'>
-        <div class='project-title'>🔥 Fire Risk Detection</div>
-        <p>This project uses <strong>Logistic Regression</strong> to predict fire risks in Mumbai suburbs using features such as:</p>
-        <ul>
-            <li>Historical fire incident data</li>
-            <li>Weather conditions</li>
-            <li>Population density</li>
-            <li>Proximity to industrial zones</li>
-        </ul>
-        <p><strong>Key Features:</strong></p>
-        <ul>
-            <li>Geospatial data integration and risk zones</li>
-            <li>Dashboard for real-time insights</li>
-            <li>Interactive maps for visualization</li>
-        </ul>
-        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Folium, Streamlit</p>
-        <div class='project-links'>
-            <a href='https://github.com/iamssaroj/fire-risk-detector' target='_blank'>📂 GitHub</a>
-            <a href='https://fire-risk-mumbai.streamlit.app/' target='_blank'>▶️ Live Demo</a>
-        </div>
+    <div class='project-title'>Fire Risk Detection</div>
+    This project uses a **Logistic Regression** model to predict fire risks based on:
+    - Historical fire incidents
+    - Weather patterns
+    - Population density
+    - Industrial proximity
+
+    **Key Features:**
+    - Geospatial data & mapping
+    - Real-time dashboard
+    - Binary classification of risk zones
+
+    <div class='project-tech'><strong>Technologies:</strong> Python, Scikit-learn, Folium, Streamlit</div>
+
+    <div class='project-links'>
+        <a href='https://github.com/iamssaroj/fire-risk-detector' target='_blank'>📂 GitHub</a>
+        <a href='https://fire-risk-mumbai.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+    </div>
+    """, unsafe_allow_html=True)
+
+# --- Example Project 3 (Future)
+with st.expander("🎬 Movie Recommendation System"):
+    st.markdown("""
+    <div class='project-title'>Movie Recommendation System</div>
+    A **content-based recommender system** that suggests movies based on genre, keywords, and user preferences.
+
+    **Key Features:**
+    - NLP-based similarity scoring
+    - User-friendly input form
+    - IMDb-style display with poster links
+
+    <div class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Streamlit</div>
+
+    <div class='project-links'>
+        <a href='https://github.com/iamssaroj/movie-recommender' target='_blank'>📂 GitHub</a>
+        <a href='https://movie-recommender-app.streamlit.app/' target='_blank'>▶️ Live Demo</a>
     </div>
     """, unsafe_allow_html=True)
 
