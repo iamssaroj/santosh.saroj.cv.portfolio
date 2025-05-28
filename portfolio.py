@@ -69,15 +69,20 @@ with st.container():
     with col1:
         st.image("image.jpg", caption="Santosh", width=150)
     with col2:
-        st.markdown("<h1 style='margin-bottom: 5px;'>SANTOSH ANJALI HARIRAM SAROJ</h1>", unsafe_allow_html=True)
-        st.write("""
-        Aspiring data analyst with a background in finance and mathematics. 
-        Currently pursuing a Master’s in Management Studies (Finance) and certified 
-        in business analysis and financial accounting.
-
-        Experienced in teaching mathematics with strong analytical and problem-solving skills. 
-        Looking to apply data skills to support business insights and decision-making.
-        """)
+        st.markdown(
+            "<h1 style='margin-bottom: 0;'>SANTOSH ANJALI HARIRAM SAROJ</h1>"
+            "<h5 style='color: gray; margin-top: 0;'>Aspiring Data Analyst | Finance & Mathematics Background</h5>",
+            unsafe_allow_html=True
+        )
+        st.markdown("""
+        <div style='line-height: 1.7; font-size: 16px;'>
+            📚 <b>Education:</b> Master's in Management Studies (Finance)<br>
+            📜 <b>Certifications:</b> Business Analysis, Financial Accounting<br><br>
+            👩‍🏫 <b>Teaching:</b> Taught mathematics to grades 8–10, building communication and analytical skills.<br><br>
+            💡 <b>Goal:</b> Leverage data analytics to drive insights and support strategic decisions.<br><br>
+            🌱 <i>Curious mind, lifelong learner, and lover of data stories.</i>
+        </div>
+        """, unsafe_allow_html=True)
 
 # Projects Section
 st.markdown("""
