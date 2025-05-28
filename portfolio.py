@@ -160,12 +160,15 @@ with st.expander("📊 FIRInsight"):
 with st.expander("Smart Emergency Medical Assistance System (SEMAS)"):
     st.markdown("""
     <div class='project-title'>Smart Emergency Medical Assistance System (SEMAS)</div>
-    A **content-based recommender system** that suggests movies based on genre, keywords, and user preferences.
+    ✅ Project Objective:
+    To develop an AI-based system that can provide real-time, personalized hospital/clinic recommendations during a medical emergency by analyzing the patient’s known medical history and symptoms, and matching them with nearby healthcare facilities with the required specialization and resources.
 
     **Key Features:**
-    - NLP-based similarity scoring
-    - User-friendly input form
-    - IMDb-style display with poster links
+    - Patient profile integration (e.g. chronic diseases, allergies)
+    - Real-time GPS and hospital data usage
+    - Symptom-to-specialist mapping
+    - Multilingual voice/text interface
+    - Alert generation to emergency contacts
 
     <div class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Streamlit</div>
 
