@@ -226,7 +226,7 @@ with st.container():
     st.header("📞 Contact Me")
 
     st.markdown("""
-    Feel free to connect with me through any of the platforms below:
+    Feel free to connect with any of the platforms below:
 
     📧 **Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
     📱 **Phone**: +91 889-855-2361 
