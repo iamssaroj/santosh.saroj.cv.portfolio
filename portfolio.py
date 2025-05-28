@@ -134,24 +134,25 @@ with st.expander("🔍 Crime Rate Predictor"):
 with st.expander("📊 FIRInsight"):
     st.markdown("""
     <div class='project-title'>FIRInsight</div>
-    This project uses a Knowledge of NLP techniques to automatically group FIRs based on similarity in type of crime:
-    - Gather a dataset of FIRs in text or PDF format.
-    - Data diversity: FIRs from multiple regions, languages, and crime types.
-    - FIRs through their police department websites
-    - RTI application to a police department to obtain anonymized FIR data for educational/research purposes
+    This project uses knowledge of NLP techniques to automatically group FIRs based on similarity in the type of crime:
+
+    - Gather a dataset of FIRs in text or PDF format  
+    - Ensure diversity: FIRs from multiple regions, languages, and crime types  
+    - Collect FIRs through police department websites  
+    - Use RTI applications to obtain anonymized FIR data for research/education  
 
     **Key Features:**
-    - Text-Based FIR Clustering
-    - Natural Language Processing (NLP) Pipeline
-    - Unsupervised Machine Learning Model
-    - Cluster Interpretation
-    - Cluster Visualization
+    - Text-Based FIR Clustering  
+    - Natural Language Processing (NLP) Pipeline  
+    - Unsupervised Machine Learning Model  
+    - Cluster Interpretation  
+    - Cluster Visualization  
 
     <div class='project-tech'><strong>Technologies:</strong> Python, Scikit-learn, Folium, Streamlit</div>
 
     <div class='project-links'>
-        <a href='https://github.com/iamssaroj/fire-risk-detector' target='_blank'>📂 GitHub</a>
-        <a href='https://fire-risk-mumbai.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+        <a href='https://github.com/iamssaroj/fir-clustering' target='_blank'>📂 GitHub</a>
+        <a href='https://firinsight.streamlit.app/' target='_blank'>▶️ Live Demo</a>
     </div>
     """, unsafe_allow_html=True)
 
