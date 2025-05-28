@@ -113,6 +113,11 @@ with st.container():
     st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/crime-rate-predictor)")
     # If you have a demo link, add here:
     st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
+    
+    st.markdown("</div>", unsafe_allow_html=True)
+
+with st.container():
+    st.markdown("<div class='card'>", unsafe_allow_html=True)
 
     st.subheader("🔥 Fire Risk Detection in Mumbai Suburbs")
 
