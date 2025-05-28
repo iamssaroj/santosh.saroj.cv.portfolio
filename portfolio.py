@@ -80,74 +80,91 @@ with st.container():
         """)
 
 # Projects Section
+st.markdown("""
+    <style>
+        .project-card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 25px;
+        }
+        .project-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333333;
+        }
+        .project-tech {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .project-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0366d6;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# --- Header
+st.header("📂 Projects")
+
+# --- Project 1: Crime Rate Predictor
 with st.container():
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.header("📂 Project")
-
-    st.subheader("🔍 Crime Rate Predictor")
-
-    st.write("""
-    This project develops a **Logistic Regression** model to predict future crime rate based on different states data.
-    It uses socio-economic indicators like:
-    - Population Density
-    - Per Capita Income
-    - Literacy Rate
-    - Unemployment Rate
-    - Drug Addiction Rate
-
-    The goal is to predict the crime risk level to help policymakers allocate resources effectively and improve safety measures.
-    """)
-
-    st.markdown("**Key Features:**")
     st.markdown("""
-    - Data sourced from official government databases (PIB, RBI, MoSPI)  
-    - Feature selection based on correlation and importance  
-    - Logistic regression model building and evaluation  
-    - Visualization of prediction results  
-    - Interactive user interface for inputting data  
-    """)
+    <div class='project-card'>
+        <div class='project-title'>🔍 Crime Rate Predictor</div>
+        <p>This project develops a <strong>Logistic Regression</strong> model to predict crime risk levels in Indian states based on socio-economic indicators such as:</p>
+        <ul>
+            <li>Population Density</li>
+            <li>Per Capita Income</li>
+            <li>Literacy Rate</li>
+            <li>Unemployment Rate</li>
+            <li>Drug Addiction Rate</li>
+        </ul>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+            <li>Official data sources (PIB, RBI, MoSPI)</li>
+            <li>Feature selection via correlation analysis</li>
+            <li>Visualization and evaluation of results</li>
+            <li>Interactive user input panel</li>
+        </ul>
+        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit</p>
+        <div class='project-links'>
+            <a href='https://github.com/iamssaroj/crime-rate-predictor' target='_blank'>📂 GitHub</a>
+            <a href='https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    st.markdown("**Technologies Used:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit")
-
-    # GitHub and Demo links
-    st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/crime-rate-predictor)")
-    # If you have a demo link, add here:
-    st.link_button("▶️ Live Demo", "https://crime-rate-predictor-vfw37ir4xbmccjikfcmooi.streamlit.app/")
-    
-    st.markdown("</div>", unsafe_allow_html=True)
-
+# --- Project 2: Fire Risk Detection
 with st.container():
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.header("📂 Project")
-
-    st.subheader("🔥 Fire Risk Detection in Mumbai Suburbs")
-
-    st.write("""
-    This project uses a **Logistic Regression** model to predict potential fire incidents in Mumbai suburbs.
-    It incorporates various factors like:
-    - Historical fire incident data
-    - Weather conditions
-    - Population density
-    - Proximity to industrial zones
-
-    The model aims to assist emergency services and urban planners in proactive risk management and response.
-    """)
-
-    st.markdown("**Key Features:**")
     st.markdown("""
-    - Integration of public datasets and geospatial data  
-    - Logistic Regression for binary classification of fire risk  
-    - Interactive map showing high-risk zones  
-    - Dashboard for real-time risk assessment  
-    """)
+    <div class='project-card'>
+        <div class='project-title'>🔥 Fire Risk Detection in Mumbai Suburbs</div>
+        <p>This project uses a <strong>Logistic Regression</strong> model to predict potential fire incidents in Mumbai suburbs based on multiple factors like:</p>
+        <ul>
+            <li>Historical fire data</li>
+            <li>Weather conditions</li>
+            <li>Population density</li>
+            <li>Proximity to industrial zones</li>
+        </ul>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+            <li>Geospatial and public data integration</li>
+            <li>Binary classification of risk zones</li>
+            <li>Interactive map visualizations</li>
+            <li>Streamlit dashboard with real-time prediction</li>
+        </ul>
+        <p class='project-tech'><strong>Technologies:</strong> Python, Pandas, Scikit-learn, Plotly, Folium, Streamlit</p>
+        <div class='project-links'>
+            <a href='https://github.com/iamssaroj/fire-risk-detector' target='_blank'>📂 GitHub</a>
+            <a href='https://fire-risk-mumbai.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    st.markdown("**Technologies Used:** Python, Pandas, Scikit-learn, Plotly, Streamlit, Folium")
-
-    # GitHub and Demo links
-    st.markdown("[📂 View Code on GitHub](https://github.com/iamssaroj/fire-risk-detector)")
-    st.link_button("▶️ Live Demo", "https://fire-risk-mumbai.streamlit.app/")
- 
-    st.markdown("</div>", unsafe_allow_html=True)
 
 # Certifications Section
 with st.container():
