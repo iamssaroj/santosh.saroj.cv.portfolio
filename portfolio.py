@@ -144,10 +144,10 @@ with st.expander("🔍 Crime Rate Predictor"):
     """, unsafe_allow_html=True)
 
 # --- Project 2
-with st.expander("🐫Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework"):
+with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework"):
      st.markdown("""
-     
-     
+     <div class='project-title'>Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework (inprogress)</div>
+     To evaluate and compare the credit risk and overall financial health of selected Indian banks using CAMEL analysis, and to assess how credit risk impacts their performance.
      
      
      """, unsafe_allow_html=True)
