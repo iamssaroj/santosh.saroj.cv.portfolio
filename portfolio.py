@@ -156,7 +156,7 @@ with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the
      """, unsafe_allow_html=True)
 
 # --- Project 3
-with st.expander("VidGist – Smart Video Summarization Tool"):
+with st.expander("🎬 VidGist – Smart Video Summarization Tool"):
     st.markdown("""
     <div class='project-title'><strong>VidGist – Smart Video Summarization Tool</strong></div>
     <p>VidGist is an AI-powered web application that allows users to upload any video and instantly receive a concise summary. It automatically detects key scenes, extracts important frames, transcribes spoken content, and generates a short textual summary using NLP. The app is built using Python, OpenCV, Whisper, and Hugging Face Transformers, and deployed via Streamlit for easy access.</p>
