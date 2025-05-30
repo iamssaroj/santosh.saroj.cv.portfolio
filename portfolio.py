@@ -157,24 +157,25 @@ with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the
 
 # --- Project 3
 with st.expander("VidGist – Smart Video Summarization Tool"):
-     st.markdown("""
-     <div class='project-title'>VidGist – Smart Video Summarization Tool</div>
-    VidGist is an AI-powered web application that allows users to upload any video and instantly receive a concise summary. It automatically detects key scenes, extracts important frames, transcribes spoken content, and generates a short textual summary using NLP. The app is built using Python, OpenCV, Whisper, and Hugging Face Transformers, and deployed via Streamlit for easy access.
-    
+    st.markdown("""
+    <div class='project-title'><strong>VidGist – Smart Video Summarization Tool</strong></div>
+    <p>VidGist is an AI-powered web application that allows users to upload any video and instantly receive a concise summary. It automatically detects key scenes, extracts important frames, transcribes spoken content, and generates a short textual summary using NLP. The app is built using Python, OpenCV, Whisper, and Hugging Face Transformers, and deployed via Streamlit for easy access.</p>
+
     **Key Features:**
     - Upload videos in common formats (.mp4, .avi, etc.)
-    - Automatically detect scene changes and extract key frames
-    - Transcribe audio using Whisper for multilingual support
-    - Generate short, readable text summaries with BART/T5
-    - Clean, user-friendly interface built with Streamlit 
+    - Automatically detect scene changes and extract key frames  
+    - Transcribe audio using Whisper for multilingual support  
+    - Generate short, readable text summaries with BART/T5  
+    - Clean, user-friendly interface built with Streamlit  
 
-     <div class='project-tech'><strong>Technologies:</strong> Python 3.10.11, ffmpeg-python, OpenCV, Streamlit</div>
-    
-      <div class='project-links'>
-        <a href='https://github.com/iamssaroj/fir-clustering' target='_blank'>📂 GitHub</a>
+    <div class='project-tech'><strong>Technologies:</strong> Python 3.10.11, ffmpeg-python, OpenCV, Streamlit, Whisper, Transformers</div>
+
+    <div class='project-links'>
+        <a href='https://github.com/iamssaroj/video-activity-app' target='_blank'>📂 GitHub</a>  
         <a href='https://video-activity-app.streamlit.app/' target='_blank'>▶️ Live Demo</a>
     </div>
-     """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
+
 
 # --- Project 4
 with st.expander("📊 FIRInsight"):
