@@ -149,7 +149,10 @@ with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the
      <div class='project-title'>Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework (inprogress)</div>
      To evaluate and compare the credit risk and overall financial health of selected Indian banks using CAMEL analysis, and to assess how credit risk impacts their performance.
      
-     
+      <div class='project-links'>
+        <a href='https://github.com/iamssaroj/fir-clustering' target='_blank'>📂 GitHub</a>
+        <a href='https://firinsight.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+    </div>
      """, unsafe_allow_html=True)
 
 
