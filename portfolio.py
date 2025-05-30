@@ -144,7 +144,7 @@ with st.expander("🔍 Crime Rate Predictor"):
     """, unsafe_allow_html=True)
 
 # --- Project 2
-with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework"):
+with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the CHEML Framework"):
      st.markdown("""
      <div class='project-title'>Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework (inprogress)</div>
      To evaluate and compare the credit risk and overall financial health of selected Indian banks using CAMEL analysis, and to assess how credit risk impacts their performance.
@@ -155,8 +155,28 @@ with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the
     </div>
      """, unsafe_allow_html=True)
 
-
 # --- Project 3
+with st.expander("VidGist – Smart Video Summarization Tool"):
+     st.markdown("""
+     <div class='project-title'>VidGist – Smart Video Summarization Tool</div>
+    VidGist is an AI-powered web application that allows users to upload any video and instantly receive a concise summary. It automatically detects key scenes, extracts important frames, transcribes spoken content, and generates a short textual summary using NLP. The app is built using Python, OpenCV, Whisper, and Hugging Face Transformers, and deployed via Streamlit for easy access.
+    
+    **Key Features:**
+    - Upload videos in common formats (.mp4, .avi, etc.)
+    - Automatically detect scene changes and extract key frames
+    - Transcribe audio using Whisper for multilingual support
+    - Generate short, readable text summaries with BART/T5
+    - Clean, user-friendly interface built with Streamlit 
+
+     <div class='project-tech'><strong>Technologies:</strong> Python 3.10.11, ffmpeg-python, OpenCV, Streamlit</div>
+    
+      <div class='project-links'>
+        <a href='https://github.com/iamssaroj/fir-clustering' target='_blank'>📂 GitHub</a>
+        <a href='https://video-activity-app.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+    </div>
+     """, unsafe_allow_html=True)
+
+# --- Project 4
 with st.expander("📊 FIRInsight"):
     st.markdown("""
     <div class='project-title'>FIRInsight (inprogress)</div>
@@ -182,7 +202,7 @@ with st.expander("📊 FIRInsight"):
     </div>
     """, unsafe_allow_html=True)
 
-# --- Example Project 3 (Future)
+# --- Example Project 5 (Future)
 with st.expander("🏥 Smart Emergency Medical Assistance System (SEMAS)"):
     st.markdown("""
     <div class='project-title'>Smart Emergency Medical Assistance System (SEMAS-inprogress)</div>
