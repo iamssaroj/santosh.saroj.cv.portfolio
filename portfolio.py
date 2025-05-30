@@ -144,6 +144,16 @@ with st.expander("🔍 Crime Rate Predictor"):
     """, unsafe_allow_html=True)
 
 # --- Project 2
+with st.expander("🐫Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework")
+     st.markdown("""
+     
+     
+     
+     
+     """, unsafe_allow_html=True)
+
+
+# --- Project 3
 with st.expander("📊 FIRInsight"):
     st.markdown("""
     <div class='project-title'>FIRInsight (inprogress)</div>
