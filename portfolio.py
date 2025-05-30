@@ -144,7 +144,7 @@ with st.expander("🔍 Crime Rate Predictor"):
     """, unsafe_allow_html=True)
 
 # --- Project 2
-with st.expander("🐫Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework")
+with st.expander("🐫Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework"):
      st.markdown("""
      
      
