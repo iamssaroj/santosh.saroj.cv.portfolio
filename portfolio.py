@@ -274,44 +274,41 @@ with st.container():
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Skills Section
-import streamlit as st
-
-# Optional: Add custom CSS for the card if you want styling
 st.markdown("""
     <style>
-    .card {
+    .card-style {
         background-color: #f9f9f9;
-        padding: 20px;
-        border-radius: 10px;
+        padding: 30px;
+        border-radius: 15px;
         box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
         margin-bottom: 20px;
     }
     </style>
 """, unsafe_allow_html=True)
 
-with st.container():
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.header("🛠️ Skills")
-    col1, col2 = st.columns(2)
+# Render the styled container
+st.markdown('<div class="card-style">', unsafe_allow_html=True)
 
-    with col1:
-        st.write("✅ Python (30%)")
-        st.progress(30)
-        st.write("📊 SQL (20%)")
-        st.progress(20)
-        st.write("🧮 Statistics (75%)")
-        st.progress(75)
+st.header("🛠️ Skills")
+col1, col2 = st.columns(2)
 
-    with col2:
-        st.write("🤖 Machine Learning (10%)")
-        st.progress(10)
-        st.write("📈 Power BI (5%)")
-        st.progress(5)
-        st.write("🌐 Streamlit (5%)")
-        st.progress(5)
+with col1:
+    st.write("✅ Python (30%)")
+    st.progress(30)
+    st.write("📊 SQL (20%)")
+    st.progress(20)
+    st.write("🧮 Statistics (75%)")
+    st.progress(75)
 
-    st.markdown("</div>", unsafe_allow_html=True)
+with col2:
+    st.write("🤖 Machine Learning (10%)")
+    st.progress(10)
+    st.write("📈 Power BI (5%)")
+    st.progress(5)
+    st.write("🌐 Streamlit (5%)")
+    st.progress(5)
 
+st.markdown('</div>', unsafe_allow_html=True)
 
 # Contact Section
 with st.container():
