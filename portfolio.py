@@ -318,7 +318,7 @@ with st.container():
     st.markdown("""
     Feel free to connect with any of the platforms below:
 
-    📧 **Email**: [sarojsantosh5@gmail.com](mailto:sarojsantosh5@gmail.com)  
+    📧 **Email**: [25f3005461@ds.study.iitm.ac.in](mailto:25f3005461@ds.study.iitm.ac.in)  
     📱 **Phone**: +91 889-855-2361 
     """)
 
