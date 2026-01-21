@@ -224,6 +224,17 @@ with st.expander("🏥 Smart Emergency Medical Assistance System (SEMAS)"):
     </div>
     """, unsafe_allow_html=True)
 
+# --- Example Project 6 (Future)
+with st.expander("🎬 Video DeepFake Detection Network(VidDF-Net)"):
+    st.markdown("""
+    <div class='project-title'>Video DeepFake Detection Network(VidDF-Net inprogress)</div>
+
+   <div class='project-links'>
+        <a href='https://github.com/iamssaroj/movie-recommender' target='_blank'>📂 GitHub</a>
+        <a href='https://movie-recommender-app.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+    </div>
+    """, unsafe_allow_html=True)
+
 # Experience Section
 with st.container():
     st.markdown("<div class='card'>", unsafe_allow_html=True)
