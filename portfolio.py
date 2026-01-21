@@ -73,7 +73,7 @@ with st.container():
         st.markdown(
             """
             <h2 style='margin-bottom:5px;'>SANTOSH ANJALI HARIRAM SAROJ</h2>
-            <p style='color:gray; font-size:16px; margin-top:0;'>Aspiring Data Analyst | Finance & Mathematics Background</p>
+            <p style='color:gray; font-size:16px; margin-top:0;'>Aspiring Tech & Finance blend</p>
             """,
             unsafe_allow_html=True
         )
@@ -81,9 +81,8 @@ with st.container():
         st.markdown(
             """
             <div style='line-height: 1.7; font-size: 16px;'>
-                📚 <strong style='color:#f39c12;'>Education:</strong> Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
+                📚 <strong style='color:#f39c12;'>Education:</strong> BS in Data Sci & Programing | Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
                 📜 <strong style='color:#2ecc71;'>Certifications:</strong> Business Analysis, Financial Accounting<br><br>
-                👩‍🏫 <strong style='color:#9b59b6;'>Teaching:</strong> Provided personalized coaching in Social Science & Mathematics to 8th–10th graders.<br><br>
                 💡 <strong style='color:#e67e22;'>Goal:</strong> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
                 🌱 <em style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</em>
             </div>
