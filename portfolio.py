@@ -73,7 +73,7 @@ with st.container():
         st.markdown(
             """
             <h2 style='margin-bottom:5px;'>SANTOSH ANJALI HARIRAM SAROJ</h2>
-            <p style='color:gray; font-size:16px; margin-top:0;'>Aspiring Tech & Finance blend</p>
+            <p style='color:gray; font-size:14px; margin-top:0;'>Aspiring Tech & Finance blend</p>
             """,
             unsafe_allow_html=True
         )
