@@ -81,7 +81,12 @@ with st.container():
         st.markdown(
             """
             <div style='line-height: 1.7; font-size: 16px;'>
-                📚 <strong style='color:#f39c12;'>Education:</strong> BS in Data Sci & Programing | Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
+                📚 <span style="font-size:0.85em;">
+  <strong style="color:#f39c12;">Education:</strong>
+  BS in Data Sci & Programming | Master's in Management Studies
+  (<strong style="color:#3498db;">Finance</strong>)
+</span><br>
+
                 📜 <strong style='color:#2ecc71;'>Certifications:</strong> Business Analysis, Financial Accounting<br><br>
                 💡 <strong style='color:#e67e22;'>Goal:</strong> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
                 🌱 <em style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</em>
