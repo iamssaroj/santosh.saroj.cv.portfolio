@@ -332,14 +332,14 @@ with st.container():
     📱 **Phone**: +91 889-855-2361 
     """)
 
-    with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
-        st.download_button(
-            label="📄 Download Resume",
-            data=resume_file,
-            file_name="Santosh_Saroj_Resume.pdf",
-            mime="application/pdf"
-        )
-    st.markdown("</div>", unsafe_allow_html=True)
+ #   with open("Santosh_Saroj_Resume.pdf", "rb") as resume_file:
+ #       st.download_button(
+ #           label="📄 Download Resume",
+ #           data=resume_file,
+ #           file_name="Santosh_Saroj_Resume.pdf",
+ #           mime="application/pdf"
+ #      )
+ #   st.markdown("</div>", unsafe_allow_html=True)
 
 # Footer
 st.markdown("""
