@@ -81,10 +81,10 @@ with st.container():
         st.markdown(
             """
             <div style='line-height: 1.7; font-size: 16px;'>
-                📚 <strong style='color:#f39c12;'>Education:</strong> BS in Data Sci & Programming | Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
-                📜 <strong style='color:#2ecc71;'>Certifications:</strong> Business Analysis, Financial Accounting<br><br>
+                📚 <strong style='color:#f39c12;'>Education:</strong> BS in Management & Data Science | Master's in Management Studies (<strong style='color:#3498db;'>Finance</strong>)<br>
+                📜 <strong style='color:#2ecc71;'>Certifications:</strong> Business Analytics, Financial Accounting<br><br>
                 💡 <strong style='color:#e67e22;'>Goal:</strong> Use data to uncover insights, drive strategy, and solve real-world problems.<br><br>
-                🌱 <em style='color:gray;'>Curious mind, lifelong learner, and lover of data stories.</em>
+                🌱 <em style='color:gray;'>Curious mind, lifelong learner, and love for data stories.</em>
             </div>
             """,
             unsafe_allow_html=True
@@ -303,8 +303,8 @@ st.header("🛠️ Skills")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.write("✅ Python (30%)")
-    st.progress(30)
+    st.write("✅ Python (50%)")
+    st.progress(50)
     st.write("📊 SQL (20%)")
     st.progress(20)
     st.write("🧮 Statistics (75%)")
@@ -347,6 +347,6 @@ st.markdown("""
         <p>Follow me on <a href="https://www.linkedin.com/in/iamssaroj/" target="_blank">LinkedIn</a> | 
         <a href="https://github.com/iamssaroj" target="_blank">GitHub</a></p>
         <hr>
-        <p>© 2025 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit</p>
+        <p>© 2026 Santosh Anjali Hariram Saroj • Built with ❤️ using Streamlit</p>
     </div>
 """, unsafe_allow_html=True)
