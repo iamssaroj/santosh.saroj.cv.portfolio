@@ -149,8 +149,8 @@ with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the
      To evaluate and compare the credit risk and overall financial health of selected Indian banks using CAMEL analysis, and to assess how credit risk impacts their performance.
      
       <div class='project-links'>
-        <a href='https://bank-net-profit-prediction-abzyy7egyauckmtctjbrlr.streamlit.app/' target='_blank'>📂 GitHub</a>
-        <a href='https://firinsight.streamlit.app/' target='_blank'>▶️ Live Demo</a>
+        <a href='https://github.com/iamssaroj/bank-net-profit-prediction' target='_blank'>📂 GitHub</a>
+        <a href='https://bank-net-profit-prediction-abzyy7egyauckmtctjbrlr.streamlit.app/' target='_blank'>▶️ Live Demo</a>
     </div>
      """, unsafe_allow_html=True)
 
