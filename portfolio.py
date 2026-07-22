@@ -145,7 +145,7 @@ with st.expander("🔍 Crime Rate Predictor"):
 # --- Project 2
 with st.expander("🐫 Credit Risk Analysis of Indian Commercial Banks Using the CHEML Framework"):
      st.markdown("""
-     <div class='project-title'>Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework (inprogress)</div>
+     <div class='project-title'>Credit Risk Analysis of Indian Commercial Banks Using the CAMEL Framework</div>
      To evaluate and compare the credit risk and overall financial health of selected Indian banks using CAMEL analysis, and to assess how credit risk impacts their performance.
      
       <div class='project-links'>
@@ -328,7 +328,7 @@ with st.container():
     st.markdown("""
     Feel free to connect with any of the platforms below:
 
-    📧 **Email**: [25f3005461@ds.study.iitm.ac.in](mailto:25f3005461@ds.study.iitm.ac.in)  
+    📧 **Email**: [25f3005461@mg.study.iitm.ac.in](mailto:25f3005461@ds.study.iitm.ac.in)  
     📱 **Phone**: +91 889-855-2361 
     """)
 
